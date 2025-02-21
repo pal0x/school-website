@@ -1,18 +1,18 @@
-/* Reset dei margini e padding */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Stile del corpo della pagina */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
 }
 
-/* Header */
+
 header {
     background-color: #003366;
     color: #fff;
@@ -21,10 +21,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
 header .logo img {
-    width: 50px;
-    height: auto;
+    width: 250px;
+    height: 200px;
 }
 
 header nav ul {
@@ -42,15 +41,112 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Sezioni principali */
+
 main {
     padding: 20px;
 }
 
-section {
-    margin-bottom: 20px;
+.indirizzi {
+    margin-top:10px;
 }
 
+a.pulsanti {
+display: inline-block;
+background-color: aquamarine
+color:wheat;
+padding: 10px 20px;
+margin: 5px;
+text-align:center;
+border-radius: 4px
+}
+.istituto{
+    font-size: 24px;
+    font-weight: bold;
+}
+.principale {
+    width: 100%;
+    height: 400px; 
+}
+.contenuto {
+    position: relative;
+    display: inline-block;
+}
+
+.immagine {
+    width: 100%;
+    height: 500px;
+}
+
+.quadrato {
+    position: absolute;
+    top: 65px;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(0, 139, 97);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 400px; 
+    font-size: 20px;
+    border-radius: 10px; 
+    overflow: hidden;
+}
+.testo {
+    font-size: 40px;
+    line-height: 1;
+}
+.link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 1px 1px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.link:hover {
+    background-color: white;
+    color: darkblue;
+}
+.indirizzi {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .indirizzo-button {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #004080;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;      
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin: 10px;      
+  }
+  
+  .indirizzo-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .indirizzo-button img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .indirizzo-button span {
+    display: block;
+    background-color: #004080;
+    padding: 10px;
+    font-size: 16px;   
+    font-weight: bold;
+  }
+  
 section h2 {
     color: #003366;
     margin-bottom: 10px;
