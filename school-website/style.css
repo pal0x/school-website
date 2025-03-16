@@ -93,11 +93,10 @@ border-radius: 4px
 
 .quadrato {
     position: absolute;
-    top: 65px;
+    top: 15px;
     left: 200px;
     width: 300px;
     flex-direction: column;
-
     background-color: rgb(0, 139, 97);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -184,4 +183,37 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+  }
+  .footer_fin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer_fin div {
+    width: 23%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .footer_fin {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .footer_fin ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer_fin li {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  .footer_fin a {
+    color: white;
+    text-decoration: none;
+  }
+  
+</style>
 
