@@ -1,5 +1,4 @@
-
-* {
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -21,14 +20,24 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-.logodiv{
-    padding: 20px 5px 10px 10px;
+.logodiv {
+    display: flex;            
+    align-items: center;    
+    padding: 5px 5px 10px 10px;  
+   
 }
-.logo{
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
+.logo {
+
+    border-radius: 10%;
+} 
+.istituto {
+    text-align: left;         
+    font-size: 18px;         
+    font-weight: bold;       
+    color: #fffcfc;              
+    font-family: 'Arial', sans-serif; 
 }
+
 
 header nav ul {
     list-style: none;
@@ -64,7 +73,7 @@ text-align:center;
 border-radius: 4px
 }
 .istituto{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin: 30px
 }
@@ -87,36 +96,43 @@ border-radius: 4px
     top: 65px;
     left: 200px;
     width: 300px;
-    height: 300px;
+    flex-direction: column;
+
     background-color: rgb(0, 139, 97);
     color: rgb(255, 255, 255);
     text-align: center;
-    line-height: 400px; 
-    font-size: 20px;
-    border-radius: 10px; 
-    padding: 10px;
+    display: flex; 
+    font-size: 10px;
+    border-radius: 25px; 
+    padding: 5px;
+    align-items: center; 
+   
 }
 .testo {
     font-size: 40px;
-    line-height: 1;
+    margin-bottom: 15px;
 }
 .link {
     display: inline-block;
     margin-top: 10px;
-    padding: 1px 1px;
+    padding: 8px 15px;
     background-color: transparent;
-    border: 2px solid white;
-    color: red;
-    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 10px;
     height: 30px;
-    width: 280px;
+    width: 200px;
+    white-space: normal;
+    line-height: 1.5;
+    max-width: 100%;
 }
+
+
 .link:hover {
     background-color: white;
     color: darkblue;
-    transform: scale(1.10)
+    transform: scale(1.05)
 }
 .indirizzi {
     display: flex;
@@ -124,6 +140,7 @@ border-radius: 4px
     flex-wrap: wrap;
     margin: 20px 0;
   }
+
   
   .indirizzo-button {
     text-decoration: none;
